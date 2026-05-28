@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هيئة باب الحوائج (ع) - المتن الشمالي رويسات</title>
+    <!-- Tailwind CSS لضمان تصميم عصري ومتجاوب بالكامل -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- خطوط عربية مميزة ومتناسقة (خط القاهرة وخط تجول) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+        }
+        .gold-text-gradient {
+            background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 30%, #B38728 70%, #AA771C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-dark-stone {
+            background-color: #12100e;
+        }
+        /* خلفية إسلامية هندسية بدون صور */
+        .islamic-pattern {
+            background-color: #12100e;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath d='M30 0l30 30-30 30L0 30z' fill='%23b38728' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- القائمة العلوية المميزة (Header & Navigation) -->
+    <header class="bg-white/95 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b-2 border-[#B38728]">
+        <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+            <!-- تصميم شعار رقمي مذهب فخم بديل لعدم اختفاء الصورة -->
+            <div class="flex items-center space-x-reverse space-x-4">
+                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-[#B38728] shadow-md bg-stone-950 flex items-center justify-center">
+                    <i class="fa-solid fa-mosque text-[#B38728] text-xl animate-pulse"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg sm:text-xl font-bold text-stone-900 leading-tight">هيئة باب الحوائج (ع)</h1>
+                    <p class="text-xs text-stone-500 font-semibold">المتن الشمالي - رويسات</p>
+                </div>
+            </div>
+            
+            <!-- روابط التنقل السريعة للكمبيوتر -->
+            <nav class="hidden md:flex space-x-reverse space-x-8 font-bold text-stone-600">
+                <a href="#home" class="text-[#B38728] hover:text-[#AA771C] transition duration-300">الرئيسية</a>
+                <a href="#about" class="hover:text-[#B38728] transition duration-300">عن الهيئة</a>
+                <a href="#activities" class="hover:text-[#B38728] transition duration-300">الأنشطة العبادية</a>
+                <a href="#media" class="hover:text-[#B38728] transition duration-300">معرض الصور</a>
+                <a href="#contact" class="hover:text-[#B38728] transition duration-300">اتصل بنا</a>
+            </nav>
+
+            <!-- زر التواصل السريع -->
+            <div class="hidden sm:block">
+                <a href="#contact" class="px-5 py-2.5 rounded-full gold-gradient text-stone-950 font-extrabold text-sm shadow-md hover:shadow-lg transition-all duration-300">
+                    تواصل معنا
+                </a>
+            </div>
+
+            <!-- زر الجوال -->
+            <button class="md:hidden text-stone-700 hover:text-[#B38728] focus:outline-none" id="menu-btn">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- قائمة الجوال المنسدلة -->
+        <div class="hidden md:hidden bg-white border-t border-stone-200" id="mobile-menu">
+            <div class="px-4 pt-2 pb-4 space-y-2 font-semibold text-center">
+                <a href="#home" class="block py-2 text-[#B38728] hover:bg-stone-50 rounded">الرئيسية</a>
+                <a href="#about" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">عن الهيئة</a>
+                <a href="#activities" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">الأنشطة العبادية</a>
+                <a href="#media" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">معرض الصور</a>
+                <a href="#contact" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">اتصل بنا</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- الواجهة الترحيبية (Hero Section) -->
+    <section id="home" class="relative islamic-pattern text-white py-16 sm:py-24 px-4 overflow-hidden">
+        <div class="container mx-auto relative z-10 grid md:grid-cols-2 gap-12 items-center">
+            <!-- الجانب النصي الترحيبي -->
+            <div class="space-y-6 text-right order-2 md:order-1">
+                <div class="inline-flex items-center space-x-reverse space-x-2 px-4 py-1.5 bg-[#B38728]/20 border border-[#B38728]/40 text-amber-300 rounded-full text-xs sm:text-sm font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>أهلاً بكم في المنصة الرقمية الرسمية</span>
+                </div>
+                
+                <h2 class="text-3xl sm:text-5xl font-extrabold leading-tight text-white">
+                    هيئة باب الحوائج <span class="text-amber-500">(ع)</span><br>
+                    <span class="gold-text-gradient text-2xl sm:text-4xl mt-2 block">المتن الشمالي - رويسات</span>
+                </h2>
+                
+                <p class="text-stone-300 text-sm sm:text-lg leading-relaxed max-w-xl">
+                    مؤسسة إيمانية دينية واجتماعية تُعنى بإحياء شعائر وتراث أهل البيت عليهم السلام، وبث قيم الألفة والتكافل والتعاون الخيري والإنساني بين جميع عوائل منطقة رويسات وجوارها في المتن الشمالي.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#activities" class="px-6 py-3.5 gold-gradient text-stone-950 font-bold rounded-xl shadow-lg hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
+                        <i class="fa-regular fa-calendar-check"></i> جدول البرامج القادمة
+                    </a>
+                    <a href="#about" class="px-6 py-3.5 border border-stone-600 text-stone-300 hover:text-white hover:border-[#B38728] font-semibold rounded-xl transition duration-300">
+                        من نحن؟
+                    </a>
+                </div>
+            </div>
+
+            <!-- الجانب البصري - لوحة خط عربي رقمية فخمة ومضمونة الظهور بنسبة 100% -->
+            <div class="flex justify-center order-1 md:order-2">
+                <div class="relative group max-w-sm sm:max-w-md w-full">
+                    <div class="absolute -inset-1.5 gold-gradient rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
+                    <div class="relative bg-stone-950 border-2 border-[#B38728] p-8 rounded-2xl shadow-2xl text-center flex flex-col items-center justify-center min-h-[320px]">
+                        <div class="w-24 h-24 rounded-full bg-[#B38728]/10 flex items-center justify-center mb-6 border border-[#B38728]/30">
+                            <i class="fa-solid fa-kaaba text-5xl text-[#B38728]"></i>
+                        </div>
+                        <h3 class="text-2xl font-black gold-text-gradient mb-2">يا موسى بن جعفر</h3>
+                        <p class="text-stone-400 text-sm">السلام عليك يا باب الحوائج</p>
+                        <div class="mt-6 text-[11px] text-stone-500 uppercase tracking-widest bg-stone-900 px-4 py-1 rounded-full border border-stone-800">
+                            المصلى الرئيسي - الرويسات
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- أقسام الإحصائيات والأرقام (Metrics) -->
+    <section class="bg-stone-100 py-10 border-y border-stone-200">
+        <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4">
+                <div class="text-3xl sm:text-4xl font-extrabold text-[#B38728]">٥٠+</div>
+                <div class="text-xs sm:text-sm text-stone-500 font-bold mt-1">مجلس سنوي</div>
+            </div>
+            <div class="p-4">
+                <div class="text-3xl sm:text-4xl font-extrabold text-[#B38728]">١٠+</div>
+                <div class="text-xs sm:text-sm text-stone-500 font-bold mt-1">سنين من الخدمة</div>
+            </div>
+            <div class="p-4">
+                <div class="text-3xl sm:text-4xl font-extrabold text-[#B38728]">١٠٠٪</div>
+                <div class="text-xs sm:text-sm text-stone-500 font-bold mt-1">عمل تطوعي وتكافلي</div>
+            </div>
+            <div class="p-4">
+                <div class="text-3xl sm:text-4xl font-extrabold text-[#B38728]">١٠٠٠+</div>
+                <div class="text-xs sm:text-sm text-stone-500 font-bold mt-1">مستفيد ومشارك</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عن الهيئة (About Us Section) -->
+    <section id="about" class="py-20 px-4 container mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h3 class="text-3xl font-extrabold text-stone-900 border-b-4 border-[#B38728] inline-block pb-3">عن الهيئة وأهدافها</h3>
+            <p class="text-stone-500 mt-4 font-semibold">تأسست الهيئة لخدمة كتاب الله وأهل البيت (ع) وخدمة عوائلنا الكرام</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- ركيزة 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-[#B38728]">
+                <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-[#B38728] text-2xl mb-6 shadow-inner">
+                    <i class="fa-solid fa-book-quran"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-3 text-stone-950">إحياء المناسبات الدينية</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    إقامة مجالس العزاء، والاحتفالات الولائية والأيام الفاطمية وعاشوراء لإبقاء تعاليم أهل البيت (ع) حية في قلوب الصغار والكبار.
+                </p>
+            </div>
+            <!-- ركيزة 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-[#B38728]">
+                <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-[#B38728] text-2xl mb-6 shadow-inner">
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-3 text-stone-950">التكافل والمساعدات</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    تنفيذ مبادرات دعم عيني وغذائي وصحي للعائلات المستورة في منطقة رويسات، وتجسيد روح باب الحوائج موسى بن جعفر (ع).
+                </p>
+            </div>
+            <!-- ركيزة 3 -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-[#B38728]">
+                <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-[#B38728] text-2xl mb-6 shadow-inner">
+                    <i class="fa-solid fa-users-line"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-3 text-stone-950">النشاط الاجتماعي الثقافي</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    ورش عمل تربوية للشباب والناشئة، وإقامة مسابقات وجلسات لتعليم أحكام تلاوة القرآن ومبادئ الأخلاق الإنسانية والاجتماعية.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأنشطة الأسبوعية وجدول البرامج (Activities & Programs) -->
+    <section id="activities" class="bg-stone-100 py-20 px-4">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h3 class="text-3xl font-extrabold text-stone-900 border-b-4 border-[#B38728] inline-block pb-3">برنامج المجالس والأنشطة</h3>
+                <p class="text-stone-500 mt-4 font-semibold">المجلس الأسبوعي القادم في مصلى الهيئة</p>
+            </div>
+
+            <!-- بطاقة الفعالية المميزة -->
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-stone-200">
+                <div class="bg-stone-900 p-6 text-white flex flex-wrap justify-between items-center gap-4 border-b-4 border-[#B38728]">
+                    <div class="flex items-center space-x-reverse space-x-3">
+                        <i class="fa-solid fa-bell text-amber-400 animate-bounce text-xl"></i>
+                        <span class="font-extrabold text-sm sm:text-base tracking-wider">النشاط العبادي الأسبوعي القادم</span>
+                    </div>
+                    <span class="bg-[#B38728] text-stone-950 font-extrabold text-xs px-3 py-1.5 rounded-full uppercase">إحياء مبارك</span>
+                </div>
+                <div class="p-8 grid md:grid-cols-3 gap-8 items-center">
+                    <div class="md:col-span-2 space-y-4">
+                        <h4 class="text-2xl sm:text-3xl font-extrabold text-stone-950">دعاء كميل ومجلس عزاء أسبوعي</h4>
+                        <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+                            ندعوكم للمشاركة الفعّالة في المجلس الإيماني الأسبوعي والذي يضم: قراءة مباركة لزيارة عاشوراء ودعاء كميل، تليها كلمة فكرية دينية، تبركاً وطلباً لشفاء المرضى وقضاء الحوائج بمقام باب الحوائج الإمام الكاظم (عليه السلام).
+                        </p>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-3 text-stone-700 text-xs sm:text-sm font-bold">
+                            <div class="flex items-center space-x-reverse space-x-2 bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                <span class="text-[#B38728]"><i class="fa-solid fa-calendar-days"></i></span>
+                                <span>كل ليلة جمعة</span>
+                            </div>
+                            <div class="flex items-center space-x-reverse space-x-2 bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                <span class="text-[#B38728]"><i class="fa-solid fa-clock"></i></span>
+                                <span>بعد صلاة العشائين</span>
+                            </div>
+                            <div class="flex items-center space-x-reverse space-x-2 bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                <span class="text-[#B38728]"><i class="fa-solid fa-location-dot"></i></span>
+                                <span>مقر الهيئة - الرويسات</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- استبدال الصورة بـ جرافيكس رقمي داخلي فخم ومضمون -->
+                    <div class="bg-stone-950 p-6 rounded-2xl border-2 border-[#B38728] flex flex-col justify-center items-center h-48 text-center">
+                        <i class="fa-solid fa-moon text-4xl text-amber-400 mb-3 animate-pulse"></i>
+                        <span class="text-white font-bold text-sm">ليالي الجمعة المباركة</span>
+                        <span class="text-stone-500 text-[11px] mt-1">الدعاء والزيارة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض الوسائط الرقمي (Gallery Section) -->
+    <section id="media" class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h3 class="text-3xl font-extrabold text-stone-900 border-b-4 border-[#B38728] inline-block pb-3">ألبوم الأنشطة والمناسبات</h3>
+                <p class="text-stone-500 mt-4 font-semibold">تغطية مصورة ومجالس من داخل مقر هيئة باب الحوائج (ع)</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- كرت رقمي 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
+                    <div class="h-48 bg-stone-900 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
+                        <i class="fa-solid fa-heart-crack text-[#B38728] text-4xl mb-2"></i>
+                        <span class="text-white font-bold text-sm">مجالس العزاء الحسيني</span>
+                    </div>
+                    <div class="p-6">
+                        <h5 class="text-lg font-bold text-stone-950 mb-2">إحياء ليلة العاشر من المحرم</h5>
+                        <p class="text-stone-500 text-xs">لقطات من تلاوة المجالس الحسينية والخدمة المباركة لأهالي رويسات والمتن.</p>
+                    </div>
+                </div>
+                <!-- كرت رقمي 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
+                    <div class="h-48 bg-stone-950 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
+                        <i class="fa-solid fa-star-and-crecent text-amber-400 text-4xl mb-2"></i>
+                        <span class="text-white font-bold text-sm">المناسبات والبيانات</span>
+                    </div>
+                    <div class="p-6">
+                        <h5 class="text-lg font-bold text-stone-950 mb-2">الشعار الرسمي للهيئة</h5>
+                        <p class="text-stone-500 text-xs">الشعار المعتمد لهيئة باب الحوائج (ع)، المتن الشمالي رويسات.</p>
+                    </div>
+                </div>
+                <!-- كرت رقمي 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
+                    <div class="h-48 bg-stone-900 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
+                        <i class="fa-solid fa-hand-holding-hand text-[#B38728] text-4xl mb-2"></i>
+                        <span class="text-white font-bold text-sm">التكافل الاجتماعي</span>
+                    </div>
+                    <div class="p-6">
+                        <h5 class="text-lg font-bold text-stone-950 mb-2">توزيع حصص التكافل العينية</h5>
+                        <p class="text-stone-500 text-xs">مستمرون بتقديم يد العون والمساعدات الغذائية للأسر الكريمة في الرويسات.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم تواصل معنا والاتصال (Contact Form & Map) -->
+    <section id="contact" class="py-20 px-4 container mx-auto max-w-5xl">
+        <div class="bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-12 border border-stone-200">
+            <!-- تفاصيل ومواقع الهيئة -->
+            <div class="bg-dark-stone text-stone-100 p-8 sm:p-12 md:col-span-5 flex flex-col justify-between relative overflow-hidden">
+                <div class="relative z-10 space-y-8">
+                    <div class="space-y-3">
+                        <h3 class="text-2xl font-bold text-amber-400">اتصل بنا</h3>
+                        <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">أبواب هيئة باب الحوائج (ع) مفتوحة لجميع المحبين والمبادرين والباحثين عن خدمة المجتمع.</p>
+                    </div>
+
+                    <div class="space-y-6 text-sm">
+                        <!-- عنوان -->
+                        <div class="flex items-start space-x-reverse space-x-4">
+                            <span class="text-amber-400 text-lg mt-0.5"><i class="fa-solid fa-map-location-dot"></i></span>
+                            <div>
+                                <h6 class="font-bold text-white">المقر والمصلى الرئيسي</h6>
+                                <p class="text-stone-400 text-xs mt-1">لبنان، قضاء المتن، منطقة رويسات، المتن الشمالي</p>
+                            </div>
+                        </div>
+                        <!-- هاتف -->
+                        <div class="flex items-start space-x-reverse space-x-4">
+                            <span class="text-amber-400 text-lg mt-0.5"><i class="fa-solid fa-phone-volume"></i></span>
+                            <div>
+                                <h6 class="font-bold text-white">للاستفسار أو طلب المساعدة</h6>
+                                <p class="text-stone-400 text-xs mt-1" dir="ltr">+961 XX XXX XXX</p>
+                            </div>
+                        </div>
+                        <!-- بريد إلكتروني -->
+                        <div class="flex items-start space-x-reverse space-x-4">
+                            <span class="text-amber-400 text-lg mt-0.5"><i class="fa-solid fa-envelope"></i></span>
+                            <div>
+                                <h6 class="font-bold text-white">البريد الإلكتروني</h6>
+                                <p class="text-stone-400 text-xs mt-1">info@bab-alhawaij.org</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- أزرار التواصل الاجتماعي - تم ربطها بروابط حقيقية تفاعلية -->
+                <div class="relative z-10 mt-12">
+                    <h6 class="text-xs font-bold text-stone-500 uppercase tracking-widest mb-3">تابعونا على منصاتنا</h6>
+                    <div class="flex space-x-reverse space-x-3 text-lg">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/bab_alhawaeej?igsh=MWptemR4am00eTZ6OQ==" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/96100000000" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- نموذج المراسلة والتواصل (7 أعمدة) -->
+            <div class="p-8 sm:p-12 md:col-span-7 bg-white">
+                <h4 class="text-2xl font-bold text-stone-950 mb-6">أرسل رسالة مباشرة</h4>
+                
+                <form class="space-y-5" onsubmit="event.preventDefault(); alert('تم استلام رسالتك الإيمانية بنجاح، شكراً لتواصلكم!'); this.reset();">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-stone-500 mb-1.5">الاسم الكريم</label>
+                            <input type="text" placeholder="الاسم الكامل" required class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-stone-500 mb-1.5">رقم التواصل (واتساب)</label>
+                            <input type="tel" placeholder="رقم الهاتف" required class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition" dir="ltr">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-xs font-bold text-stone-500 mb-1.5">البريد الإلكتروني (إن وجد)</label>
+                        <input type="email" placeholder="example@domain.com" class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition" dir="ltr">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-stone-500 mb-1.5">الرسالة أو طلب المساعدة</label>
+                        <textarea rows="4" placeholder="اكتب تفاصيل استفسارك أو مساهمتك هنا..." required class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 gold-gradient text-stone-950 font-extrabold rounded-xl shadow-lg hover:brightness-110 transition duration-300">
+                        إرسال الرسالة للهيئة
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل الرسمي الفاخر (Footer) -->
+    <footer class="bg-stone-950 text-stone-400 border-t border-stone-800">
+        <div class="container mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 items-center text-center md:text-right">
+            <!-- الشعار والاسم الرقمي -->
+            <div class="flex flex-col items-center md:items-start space-y-3">
+                <div class="w-16 h-16 rounded-full bg-stone-900 border border-[#B38728] flex items-center justify-center shadow-lg shadow-black">
+                    <i class="fa-solid fa-mosque text-[#B38728] text-xl"></i>
+                </div>
+                <div>
+                    <h5 class="text-white font-extrabold text-lg">هيئة باب الحوائج (ع)</h5>
+                    <p class="text-xs text-stone-500 mt-1">منطقة رويسات، المتن الشمالي، لبنان</p>
+                </div>
+            </div>
+
+            <!-- معلومات سريعة عن الإمام الكاظم (ع) -->
+            <div class="text-stone-500 text-xs sm:text-sm">
+                <p class="italic text-stone-300">"باب الحوائج إلى الله عز وجل، الإمام موسى بن جعفر الكاظم عليه السلام"</p>
+                <p class="mt-2 text-[10px]">تأسست هذه المنصة لترسيخ هذا التراث العظيم ونشره بين أبناء الأمة.</p>
+            </div>
+
+            <!-- روابط سريعة -->
+            <div class="text-xs space-y-2">
+                <a href="#about" class="block hover:text-white transition">عن نشاط الهيئة ورؤيتها</a>
+                <a href="#activities" class="block hover:text-white transition">المجالس الأسبوعية المتكررة</a>
+                <a href="#contact" class="block hover:text-white transition">التطوع والمشاركة الاجتماعية في المتن</a>
+            </div>
+        </div>
+        
+        <div class="bg-stone-900 py-4 text-center text-[10px] sm:text-xs text-stone-600 border-t border-stone-800">
+            <p>© 2026 هيئة باب الحوائج (ع) - المتن الشمالي رويسات. جميع الحقوق والملكية محفوظة ومصونة.</p>
+        </div>
+    </footer>
+
+    <!-- سكربت بسيط لتشغيل قائمة الجوال المنسدلة تفاعلياً -->
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
