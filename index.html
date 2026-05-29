@@ -53,35 +53,41 @@
             </div>
             
             <!-- روابط التنقل السريعة للكمبيوتر -->
-            <nav class="hidden md:flex space-x-reverse space-x-8 font-bold text-stone-600">
+            <nav class="hidden lg:flex space-x-reverse space-x-6 font-bold text-stone-600">
                 <a href="#home" class="text-[#B38728] hover:text-[#AA771C] transition duration-300">الرئيسية</a>
                 <a href="#about" class="hover:text-[#B38728] transition duration-300">عن الهيئة</a>
+                <a href="#stories" class="hover:text-[#B38728] transition duration-300">سيرة باب الحوائج</a>
                 <a href="#activities" class="hover:text-[#B38728] transition duration-300">الأنشطة العبادية</a>
                 <a href="#media" class="hover:text-[#B38728] transition duration-300">معرض الصور</a>
                 <a href="#contact" class="hover:text-[#B38728] transition duration-300">اتصل بنا</a>
             </nav>
 
-            <!-- زر التواصل السريع -->
-            <div class="hidden sm:block">
-                <a href="#contact" class="px-5 py-2.5 rounded-full gold-gradient text-stone-950 font-extrabold text-sm shadow-md hover:shadow-lg transition-all duration-300">
+            <!-- أزرار التواصل والتبرع السريع -->
+            <div class="hidden sm:flex items-center space-x-reverse space-x-3">
+                <a href="#donate-section" class="px-4 py-2 rounded-xl bg-amber-500 text-stone-950 font-extrabold text-xs shadow-md hover:bg-amber-400 transition-all duration-300 flex items-center gap-1">
+                    <i class="fa-solid fa-hand-holding-dollar"></i> تبرع الآن
+                </a>
+                <a href="#contact" class="px-4 py-2 rounded-xl gold-gradient text-stone-950 font-extrabold text-xs shadow-md hover:shadow-lg transition-all duration-300">
                     تواصل معنا
                 </a>
             </div>
 
             <!-- زر الجوال -->
-            <button class="md:hidden text-stone-700 hover:text-[#B38728] focus:outline-none" id="menu-btn">
+            <button class="lg:hidden text-stone-700 hover:text-[#B38728] focus:outline-none" id="menu-btn">
                 <i class="fa-solid fa-bars text-2xl"></i>
             </button>
         </div>
 
         <!-- قائمة الجوال المنسدلة -->
-        <div class="hidden md:hidden bg-white border-t border-stone-200" id="mobile-menu">
+        <div class="hidden lg:hidden bg-white border-t border-stone-200" id="mobile-menu">
             <div class="px-4 pt-2 pb-4 space-y-2 font-semibold text-center">
                 <a href="#home" class="block py-2 text-[#B38728] hover:bg-stone-50 rounded">الرئيسية</a>
                 <a href="#about" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">عن الهيئة</a>
+                <a href="#stories" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">سيرة باب الحوائج</a>
                 <a href="#activities" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">الأنشطة العبادية</a>
                 <a href="#media" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">معرض الصور</a>
                 <a href="#contact" class="block py-2 text-stone-600 hover:bg-stone-50 rounded">اتصل بنا</a>
+                <a href="#donate-section" class="block py-2 bg-amber-500 text-stone-950 font-bold rounded">تبرع الآن <i class="fa-solid fa-hand-holding-dollar"></i></a>
             </div>
         </div>
     </header>
@@ -109,13 +115,13 @@
                     <a href="#activities" class="px-6 py-3.5 gold-gradient text-stone-950 font-bold rounded-xl shadow-lg hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
                         <i class="fa-regular fa-calendar-check"></i> جدول البرامج القادمة
                     </a>
-                    <a href="#about" class="px-6 py-3.5 border border-stone-600 text-stone-300 hover:text-white hover:border-[#B38728] font-semibold rounded-xl transition duration-300">
-                        من نحن؟
+                    <a href="#donate-section" class="px-6 py-3.5 bg-amber-600 text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-300 flex items-center gap-2">
+                        <i class="fa-solid fa-heart"></i> دعم أعمال التبرعات
                     </a>
                 </div>
             </div>
 
-            <!-- الجانب البصري - لوحة خط عربي رقمية فخمة ومضمونة الظهور بنسبة 100% -->
+            <!-- الجانب البصري - لوحة خط عربي رقمية فخمة -->
             <div class="flex justify-center order-1 md:order-2">
                 <div class="relative group max-w-sm sm:max-w-md w-full">
                     <div class="absolute -inset-1.5 gold-gradient rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
@@ -197,6 +203,45 @@
         </div>
     </section>
 
+    <!-- قِسْمْ قِصَصْ وَسِيرَةْ بَابْ اَلْحَوَائِجْ (جديد وموسع) -->
+    <section id="stories" class="py-20 bg-stone-900 text-white px-4 islamic-pattern border-y-2 border-[#B38728]">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h3 class="text-3xl font-extrabold text-white border-b-4 border-[#B38728] inline-block pb-3">من سيرة باب الحوائج (ع)</h3>
+                <p class="text-amber-300 mt-4 font-semibold">محطات وتأملات من حياة الإمام موسى بن جعفر الكاظم</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- قصة 1 -->
+                <div class="bg-stone-950/80 p-6 rounded-2xl border border-stone-800 space-y-4 hover:border-[#B38728] transition duration-300">
+                    <div class="text-amber-400 text-3xl"><i class="fa-solid fa-feather-pointed"></i></div>
+                    <h4 class="text-xl font-bold text-white">هداية بِشْر الحافي</h4>
+                    <p class="text-stone-300 text-sm leading-relaxed">
+                        مرَّ الإمام الكاظم (ع) بدارِ بِشْرٍ في بغداد، وكانت تخرج منها أصوات الملاهي. فخرجت جارية لرمي القمامة، فسألها الإمام: "يا جارية، صاحب هذه الدار حرٌّ أم عبد؟" فقالت: بل حر. فقال الإمام: "صدقتِ، لو كان عبداً لَخاف من سيّده". وعندما سمع بشر هذه الكلمات، وقعت في قلبه وخرج حافياً خلف الإمام ليعلن توبته وأصبح من كبار الزهّاد.
+                    </p>
+                </div>
+
+                <!-- قصة 2 -->
+                <div class="bg-stone-950/80 p-6 rounded-2xl border border-stone-800 space-y-4 hover:border-[#B38728] transition duration-300">
+                    <div class="text-amber-400 text-3xl"><i class="fa-solid fa-dove"></i></div>
+                    <h4 class="text-xl font-bold text-white">كظم الغيظ والحِلم</h4>
+                    <p class="text-stone-300 text-sm leading-relaxed">
+                        لُقّب الإمام بالكاظم لصبره الشديد. رُوي أن رجلاً من المدينة كان يؤذيه ويشتمه كلما رآه، فنصح أصحاب الإمام بقتله، فرفض الإمام بشدة. وسأل عن مكان الرجل فذهب إليه في زرعه وحدثه بلطف وتبرع له بمال، فاستحيا الرجل وبكى وأصبح من أشد المحبين والمدافعين عنه، فقال الإمام لأصحابه: "أيها كان خيراً؟ ما أردتم أم ما أردت؟".
+                    </p>
+                </div>
+
+                <!-- قصة 3 -->
+                <div class="bg-stone-950/80 p-6 rounded-2xl border border-stone-800 space-y-4 hover:border-[#B38728] transition duration-300">
+                    <div class="text-amber-400 text-3xl"><i class="fa-solid fa-boundless"></i></div>
+                    <h4 class="text-xl font-bold text-white">لماذا سُمي باب الحوائج؟</h4>
+                    <p class="text-stone-300 text-sm leading-relaxed">
+                        عُرِف الإمام موسى بن جعفر بين سائر الطوائف والمسلمين بأنه "باب الحوائج إلى الله". فما قَصده مكروبٌ أو صاحب حاجة متوسلاً به إلى الله إلا واستجاب الله له وقضى حاجته. وقد قضى الإمام شطراً طويلاً من عمره الشريف مظلوماً في قعور السجون، متفرغاً للعبادة وشاكراً لله على إتاحة الوقت له لمناجاته.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- قسم الأنشطة الأسبوعية وجدول البرامج (Activities & Programs) -->
     <section id="activities" class="bg-stone-100 py-20 px-4">
         <div class="container mx-auto max-w-5xl">
@@ -237,7 +282,6 @@
                         </div>
                     </div>
                     
-                    <!-- استبدال الصورة بـ جرافيكس رقمي داخلي فخم ومضمون -->
                     <div class="bg-stone-950 p-6 rounded-2xl border-2 border-[#B38728] flex flex-col justify-center items-center h-48 text-center">
                         <i class="fa-solid fa-moon text-4xl text-amber-400 mb-3 animate-pulse"></i>
                         <span class="text-white font-bold text-sm">ليالي الجمعة المباركة</span>
@@ -257,7 +301,7 @@
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- كرت رقمي 1 -->
+                <!-- كرت 1 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
                     <div class="h-48 bg-stone-900 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
                         <i class="fa-solid fa-heart-crack text-[#B38728] text-4xl mb-2"></i>
@@ -268,7 +312,7 @@
                         <p class="text-stone-500 text-xs">لقطات من تلاوة المجالس الحسينية والخدمة المباركة لأهالي رويسات والمتن.</p>
                     </div>
                 </div>
-                <!-- كرت رقمي 2 -->
+                <!-- كرت 2 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
                     <div class="h-48 bg-stone-950 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
                         <i class="fa-solid fa-star-and-crecent text-amber-400 text-4xl mb-2"></i>
@@ -279,7 +323,7 @@
                         <p class="text-stone-500 text-xs">الشعار المعتمد لهيئة باب الحوائج (ع)، المتن الشمالي رويسات.</p>
                     </div>
                 </div>
-                <!-- كرت رقمي 3 -->
+                <!-- كرت 3 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-200 group">
                     <div class="h-48 bg-stone-900 flex flex-col justify-center items-center text-center p-4 border-b-4 border-[#B38728]">
                         <i class="fa-solid fa-hand-holding-hand text-[#B38728] text-4xl mb-2"></i>
@@ -290,6 +334,27 @@
                         <p class="text-stone-500 text-xs">مستمرون بتقديم يد العون والمساعدات الغذائية للأسر الكريمة في الرويسات.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم مخصص ومميز للتبرعات الخيرية (جديد) -->
+    <section id="donate-section" class="py-16 bg-amber-50 border-y border-amber-200 px-4 text-center">
+        <div class="container mx-auto max-w-3xl space-y-6">
+            <div class="w-16 h-16 bg-amber-600 rounded-full flex items-center justify-center text-white text-2xl mx-auto shadow-lg animate-pulse">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3 class="text-3xl font-black text-stone-950">باب التبرعات والمساهمات الخيرية</h3>
+            <p class="text-stone-700 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+                قال الله تعالى: "مَّن ذَا الَّذِي يُقْرِضُ اللَّهَ قَرْضًا حَسَنًا فَيُضَاعِفَهُ لَهُ أَضْعَافًا كَثِيرَةً". تبرعك يساهم في إحياء مجالس أهل البيت (ع) وإعانة العائلات المتعففة في منطقة رويسات.
+            </p>
+            <!-- بطاقة رقم الهاتف للتبرع مباشرة -->
+            <div class="inline-block bg-stone-950 text-white rounded-2xl px-8 py-5 border-2 border-[#B38728] shadow-xl">
+                <span class="text-xs text-amber-400 font-bold block mb-1">الرقم الرسمي المخصص للتبرع (واتساب / اتصال)</span>
+                <!-- يمكنك استبدال الرقم بالرقم الحقيقي للهيئة مباشرة أدناه -->
+                <a href="tel:+96176543210" class="text-xl sm:text-2xl font-black text-white hover:text-amber-300 transition" dir="ltr">
+                    <i class="fa-solid fa-phone text-amber-500 mr-2"></i> +961 76 543 210
+                </a>
             </div>
         </div>
     </section>
@@ -319,7 +384,7 @@
                             <span class="text-amber-400 text-lg mt-0.5"><i class="fa-solid fa-phone-volume"></i></span>
                             <div>
                                 <h6 class="font-bold text-white">للاستفسار أو طلب المساعدة</h6>
-                                <p class="text-stone-400 text-xs mt-1" dir="ltr">+961 XX XXX XXX</p>
+                                <p class="text-stone-400 text-xs mt-1" dir="ltr">+961 76 543 210</p>
                             </div>
                         </div>
                         <!-- بريد إلكتروني -->
@@ -333,13 +398,13 @@
                     </div>
                 </div>
 
-                <!-- أزرار التواصل الاجتماعي - تم ربطها بروابط حقيقية تفاعلية -->
+                <!-- أزرار التواصل الاجتماعي -->
                 <div class="relative z-10 mt-12">
                     <h6 class="text-xs font-bold text-stone-500 uppercase tracking-widest mb-3">تابعونا على منصاتنا</h6>
                     <div class="flex space-x-reverse space-x-3 text-lg">
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/bab_alhawaeej?igsh=MWptemR4am00eTZ6OQ==" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://wa.me/96100000000" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/96176543210" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-whatsapp"></i></a>
                         <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-stone-800 border border-stone-700 flex items-center justify-center text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition duration-300"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
@@ -367,8 +432,8 @@
                     </div>
 
                     <div>
-                        <label class="block text-xs font-bold text-stone-500 mb-1.5">الرسالة أو طلب المساعدة</label>
-                        <textarea rows="4" placeholder="اكتب تفاصيل استفسارك أو مساهمتك هنا..." required class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition"></textarea>
+                        <label class="block text-xs font-bold text-stone-500 mb-1.5">الرسالة أو تفاصيل مساهمتك</label>
+                        <textarea rows="4" placeholder="اكتب تفاصيل استفسارك، رسالتك أو مساهمتك هنا..." required class="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-[#B38728] focus:border-[#B38728] focus:outline-none transition"></textarea>
                     </div>
 
                     <button type="submit" class="w-full py-4 gold-gradient text-stone-950 font-extrabold rounded-xl shadow-lg hover:brightness-110 transition duration-300">
@@ -403,7 +468,7 @@
             <div class="text-xs space-y-2">
                 <a href="#about" class="block hover:text-white transition">عن نشاط الهيئة ورؤيتها</a>
                 <a href="#activities" class="block hover:text-white transition">المجالس الأسبوعية المتكررة</a>
-                <a href="#contact" class="block hover:text-white transition">التطوع والمشاركة الاجتماعية في المتن</a>
+                <a href="#donate-section" class="block hover:text-white transition">التطوع والمشاركة الاجتماعية والتبرع في المتن</a>
             </div>
         </div>
         
